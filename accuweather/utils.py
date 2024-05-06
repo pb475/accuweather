@@ -72,7 +72,7 @@ def parse_daily_forecast(
                 day[item["Name"]]["Category"].split(" ")[0].lower()
             )
             day[item["Name"]].pop("Name")
-        # day.pop("AirAndPollen")
+        day.pop("AirAndPollen")
 
         for temp in TEMPERATURES:
             day[f"{temp}Min"] = day[temp]["Minimum"]
