@@ -25,7 +25,7 @@ REMOVE_FROM_CURRENT_CONDITION: tuple[str, ...] = (
 )
 REMOVE_FROM_FORECAST: tuple[str, ...] = (
     "Sun",
-    "Moon",
+    # "Moon",
     "Sources",
     "MobileLink",
     "Link",
